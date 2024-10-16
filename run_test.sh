@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=1 python tools/demo_spdet.py --path /data2/zzb/data/PANDA/PANDA-Image/image_test/14_OCT_Habour/ --fp16 --fuse --exp_file exps/example/mot/yolox_s_mix_det.py  --ckpt pretrained/bytetrack_s_mot17.pth.tar --save_result
+CUDA_VISIBLE_DEVICES=0 python tools/demo_spdet.py --path /data/PANDA/PANDA-VIDEO/video_train/09_Xili_Street_2/ --fp16 --fuse --exp_file exs/example/mot/yolox_s_mix_det.py  --ckpt pretrained/bytetrack_s_mot17.pth.tar --save_result

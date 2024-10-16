@@ -22,9 +22,9 @@ pip3 install cython_bbox
 ```
 ### 2. Docker build
 ```shell
-docker build -t spdet:1.0.1 .
+docker build -t gigatrack:1.0.1 .
 
-docker run --gpus all --name spdet_test -it  -v  /data/PANDA:/workspace/spdet/datasets/PANDA  -v $PWD/pretrained:/workspace/spdet/pretrained -v $PWD/YOLOX_outputs:/workspace/spdet/YOLOX_outputs  spdet:1.0.1 /bin/bash  
+docker run --gpus all --name spdet_test -it  -v  /data/PANDA:/workspace/gigatrack/datasets/PANDA  -v $PWD/pretrained:/workspace/gigatrack/pretrained -v $PWD/YOLOX_outputs:/workspace/gigatrack/YOLOX_outputs  gigatrack:1.0.1 /bin/bash  
 
 ```
 
@@ -49,4 +49,4 @@ datasets
 
 ## Acknowledgement
 
-A large part of the code is borrowed from [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX).
+A large part of the code is borrowed from [SPDet](https://github.com/TJUT-CV/SPDet) and [ByteTrack](https://github.com/ifzhang/ByteTrack).

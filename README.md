@@ -46,7 +46,7 @@ datasets
    
 ```
 
-## Data preparation
+## Competition
 
 ![GigaMOT2024 First Place Winner](GigaMOT-1.png)
 
